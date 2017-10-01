@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{3D976337-6D5D-40A3-BB9D-420339E3C814}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockChain.Helpers", "BlockChain.Helpers\BlockChain.Helpers.csproj", "{AF0DD88C-CDD2-4554-A28A-D8C6748A4304}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlockChain._01.SimpleChain", "BlockChain._01.SimpleChain\BlockChain._01.SimpleChain.csproj", "{6DAF889F-CD8A-4FD1-AA7B-EF4AD906B7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlockChain._02.Nonce", "BlockChain._02.Nonce\BlockChain._02.Nonce.csproj", "{E7EF62D9-F795-442B-BC86-5AB98F4536EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{720A16A9-1492-40F7-85A1-27970085FDCC}"
+	ProjectSection(SolutionItems) = preProject
+		Data\NonceSpeed.csv = Data\NonceSpeed.csv
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF0DD88C-CDD2-4554-A28A-D8C6748A4304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0DD88C-CDD2-4554-A28A-D8C6748A4304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0DD88C-CDD2-4554-A28A-D8C6748A4304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0DD88C-CDD2-4554-A28A-D8C6748A4304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DAF889F-CD8A-4FD1-AA7B-EF4AD906B7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DAF889F-CD8A-4FD1-AA7B-EF4AD906B7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DAF889F-CD8A-4FD1-AA7B-EF4AD906B7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DAF889F-CD8A-4FD1-AA7B-EF4AD906B7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7EF62D9-F795-442B-BC86-5AB98F4536EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EF62D9-F795-442B-BC86-5AB98F4536EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EF62D9-F795-442B-BC86-5AB98F4536EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EF62D9-F795-442B-BC86-5AB98F4536EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF0DD88C-CDD2-4554-A28A-D8C6748A4304} = {3D976337-6D5D-40A3-BB9D-420339E3C814}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D4B6F25-F201-4AAD-8243-C65224919ECF}
+	EndGlobalSection
+EndGlobal
