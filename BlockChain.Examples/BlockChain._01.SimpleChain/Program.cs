@@ -35,7 +35,7 @@ namespace BlockChain._01.SimpleChain
             Console.WriteLine("Current Chain: ");
             for (int i = 0; i < chain1.Count; i++)
             {
-                Console.WriteLine(chain1[i].Data);
+                Console.WriteLine(chain1[i].Transactions);
             }
 
             Console.ReadKey();

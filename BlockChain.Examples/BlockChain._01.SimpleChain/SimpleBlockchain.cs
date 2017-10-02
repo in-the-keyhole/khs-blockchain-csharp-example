@@ -64,7 +64,7 @@ namespace BlockChain._01.SimpleChain
                 //Using the high resolution timestamp because by default 
                 TimeStamp = _clock.UtcNow,
                 Index = count,
-                Data = item,
+                Transactions = item,
                 PreviousHash = previousHash
             });
 
