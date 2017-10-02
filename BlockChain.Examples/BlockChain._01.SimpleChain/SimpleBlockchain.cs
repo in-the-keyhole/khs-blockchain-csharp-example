@@ -8,14 +8,15 @@ namespace BlockChain._01.SimpleChain
     public class SimpleBlockchain<T>
     {
         private List<Block<T>> _chain;
+        private Clock _clock;
 
-        public SimpleBlockchain()
+        public SimpleBlockchain() : this (new List<Block<T>>())
         {
-            _chain = new List<Block<T>>();
         }
 
         private SimpleBlockchain(List<Block<T>> blocks)
         {
+            _clock = new Clock();
             _chain = blocks;
         }
 
@@ -60,7 +61,8 @@ namespace BlockChain._01.SimpleChain
 
             _chain.Add(new Block<T>()
             {
-                TimeStamp = HighResolutionDateTime.UtcNow,
+                //Using the high resolution timestamp because by default 
+                TimeStamp = _clock.UtcNow,
                 Index = count,
                 Data = item,
                 PreviousHash = previousHash
