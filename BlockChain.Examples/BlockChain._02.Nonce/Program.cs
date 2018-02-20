@@ -15,7 +15,7 @@ namespace BlockChain._02.Nonce
 
             Console.WriteLine($"Hash: {hashValue}\n");
 
-            var nonceKey = "12345";
+            var nonceKey = "00000";
             long nonce = 0;
             var nonceFound = false;
             string nonceHash = string.Empty;
